@@ -126,82 +126,163 @@ export default function Home() {
 
   return (
     <div className="flex flex-col bg-white text-gray-900">
-      {/* Hero Section - PPOB Complete Design */}
+      {/* Hero Section - Modern Split Design */}
       <section className="relative mb-12 sm:mb-16 mt-16 sm:mt-24 overflow-hidden">
         <div className="w-full mx-auto max-w-7xl px-4 sm:px-6">
-          <div className="relative h-[400px] sm:h-[480px] md:h-[520px] lg:h-[600px] rounded-3xl shadow-2xl border border-gray-100 overflow-hidden">
-            {/* Background Image */}
-            <img 
-              src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80" 
-              alt="JagoPulsa - Token Listrik & Pulsa" 
-              className="absolute inset-0 w-full h-full object-cover" 
-            />
+          {/* Main Hero Container */}
+          <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-[600px]">
             
-            {/* Gradient overlay */}
-            <div className="absolute inset-0 bg-gradient-to-r from-[#1e40af]/90 via-[#059669]/70 to-[#f59e0b]/50" />
-            
-            {/* Content */}
-            <div className="relative z-10 flex flex-col justify-center h-full p-6 sm:p-8 md:p-12 lg:p-16">
-              <div className="max-w-3xl">
-                {/* Badge */}
-                <div className="inline-flex items-center px-4 py-2 rounded-full bg-white/20 backdrop-blur-sm border border-white/30 text-white text-sm font-medium mb-6">
-                  <Zap className="w-5 h-5 mr-2" />
-                  Platform PPOB Terpercaya #1 - Token Listrik & Pulsa
-                </div>
-                
-                {/* Main Title */}
-                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight tracking-tight">
-                  Token Listrik & Pulsa
+            {/* Left Content */}
+            <div className="space-y-8 lg:pr-8">
+              {/* Floating Badge */}
+              <div className="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-[#1e40af]/10 to-[#059669]/10 border border-[#1e40af]/20 text-[#1e40af] text-sm font-medium backdrop-blur-sm">
+                <Zap className="w-4 h-4 mr-2" />
+                Platform PPOB Terpercaya #1
+              </div>
+              
+              {/* Main Title with Gradient */}
+              <div className="space-y-4">
+                <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black leading-tight">
+                  <span className="bg-gradient-to-r from-[#1e40af] via-[#059669] to-[#f59e0b] bg-clip-text text-transparent">
+                    Token Listrik
+                  </span>
                   <br />
-                  <span className="text-white/90">Semua Operator</span>
+                  <span className="text-gray-900">& Pulsa Instan</span>
                 </h1>
                 
-                {/* Subtitle */}
-                <p className="text-lg sm:text-xl md:text-2xl text-white/95 font-medium leading-relaxed mb-8 max-w-2xl">
-                  Beli token listrik PLN, bayar tagihan listrik, dan isi pulsa semua operator. Proses instan, harga terbaik, tersedia 24/7.
+                {/* Animated Subtitle */}
+                <p className="text-lg sm:text-xl lg:text-2xl text-gray-600 leading-relaxed max-w-xl">
+                  Beli token listrik PLN, bayar tagihan, dan isi pulsa dengan 
+                  <span className="font-semibold text-[#1e40af]"> proses tercepat</span> di Indonesia
                 </p>
+              </div>
+              
+              {/* Action Buttons */}
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Button 
+                  onClick={scrollToServices}
+                  className="bg-gradient-to-r from-[#1e40af] to-[#059669] hover:from-[#1e40af]/90 hover:to-[#059669]/90 text-white font-semibold px-8 py-4 rounded-2xl text-lg transition-all duration-300 shadow-lg hover:shadow-2xl hover:shadow-[#1e40af]/25 transform hover:-translate-y-1"
+                >
+                  Mulai Sekarang
+                  <ArrowRight className="w-5 h-5 ml-2" />
+                </Button>
                 
-                {/* CTA Buttons */}
-                <div className="flex flex-col sm:flex-row gap-4 mb-8">
-                  <Button 
-                    onClick={scrollToServices}
-                    className="bg-white text-[#1e40af] hover:bg-white/90 font-semibold px-8 py-4 rounded-full text-base sm:text-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
-                  >
-                    Lihat Semua Layanan
-                    <ArrowRight className="w-5 h-5 ml-2" />
-                  </Button>
+                {/* <Button 
+                  variant="outline"
+                  className="border-2 border-[#1e40af]/20 text-[#1e40af] hover:bg-[#1e40af]/5 font-semibold px-8 py-4 rounded-2xl text-lg transition-all duration-300 hover:border-[#1e40af]/40"
+                >
+                  Lihat Cara Kerja
+                  <Lightbulb className="w-5 h-5 ml-2" />
+                </Button> */}
+              </div>
+              
+              {/* Trust Indicators */}
+              <div className="flex items-center gap-6 pt-4">
+                <div className="flex items-center gap-2">
+                  <Shield className="w-5 h-5 text-[#059669]" />
+                  <span className="text-sm font-medium text-gray-700">100% Aman</span>
                 </div>
-                
-                {/* Quick Stats */}
-                <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-white">
-                  <div className="text-center">
-                    <div className="text-2xl sm:text-3xl font-bold">PLN</div>
-                    <div className="text-sm sm:text-base text-white/80">Resmi</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-2xl sm:text-3xl font-bold">7+</div>
-                    <div className="text-sm sm:text-base text-white/80">Operator</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-2xl sm:text-3xl font-bold">Instan</div>
-                    <div className="text-sm sm:text-base text-white/80">Proses</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-2xl sm:text-3xl font-bold">24/7</div>
-                    <div className="text-sm sm:text-base text-white/80">Support</div>
-                  </div>
+                <div className="flex items-center gap-2">
+                  <Sparkles className="w-5 h-5 text-[#f59e0b]" />
+                  <span className="text-sm font-medium text-gray-700">Proses Instan</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Users className="w-5 h-5 text-[#1e40af]" />
+                  <span className="text-sm font-medium text-gray-700">Support 24/7</span>
                 </div>
               </div>
             </div>
             
-            {/* Decorative elements */}
-            <div className="absolute top-6 right-6 w-20 h-20 rounded-full bg-white/10 backdrop-blur-sm flex items-center justify-center">
-              <Lightbulb className="w-10 h-10 text-white" />
+            {/* Right Visual */}
+            <div className="relative lg:ml-8">
+              {/* Main Card */}
+              <div className="relative bg-white rounded-3xl shadow-2xl p-8 border border-gray-100">
+                {/* Floating Elements */}
+                <div className="absolute -top-4 -right-4 w-24 h-24 bg-gradient-to-br from-[#1e40af] to-[#059669] rounded-2xl flex items-center justify-center shadow-lg rotate-12 transform hover:rotate-6 transition-transform duration-300">
+                  <Zap className="w-12 h-12 text-white" />
+                </div>
+                
+                <div className="absolute -bottom-4 -left-4 w-20 h-20 bg-gradient-to-br from-[#f59e0b] to-[#f77a0e] rounded-2xl flex items-center justify-center shadow-lg -rotate-12 transform hover:-rotate-6 transition-transform duration-300">
+                  <Smartphone className="w-10 h-10 text-white" />
+                </div>
+                
+                {/* Card Content */}
+                <div className="space-y-6">
+                  <div className="text-center">
+                    <h3 className="text-2xl font-bold text-gray-900 mb-2">Layanan Tersedia</h3>
+                    <p className="text-gray-600">Semua kebutuhan PPOB dalam satu platform</p>
+                  </div>
+                  
+                  {/* Service Grid */}
+                  <div className="grid grid-cols-2 gap-4">
+                    <div className="bg-gradient-to-br from-[#1e40af]/10 to-[#1e40af]/5 rounded-xl p-4 border border-[#1e40af]/10">
+                      <div className="w-8 h-8 bg-[#1e40af] rounded-lg flex items-center justify-center mb-2">
+                        <Zap className="w-4 h-4 text-white" />
+                      </div>
+                      <h4 className="font-semibold text-gray-900 text-sm mb-1">Token Listrik</h4>
+                      <p className="text-xs text-gray-600">PLN Prabayar</p>
+                    </div>
+                    
+                    <div className="bg-gradient-to-br from-[#059669]/10 to-[#059669]/5 rounded-xl p-4 border border-[#059669]/10">
+                      <div className="w-8 h-8 bg-[#059669] rounded-lg flex items-center justify-center mb-2">
+                        <Calculator className="w-4 h-4 text-white" />
+                      </div>
+                      <h4 className="font-semibold text-gray-900 text-sm mb-1">Tagihan PLN</h4>
+                      <p className="text-xs text-gray-600">Pascabayar</p>
+                    </div>
+                    
+                    <div className="bg-gradient-to-br from-[#f59e0b]/10 to-[#f59e0b]/5 rounded-xl p-4 border border-[#f59e0b]/10">
+                      <div className="w-8 h-8 bg-[#f59e0b] rounded-lg flex items-center justify-center mb-2">
+                        <Smartphone className="w-4 h-4 text-white" />
+                      </div>
+                      <h4 className="font-semibold text-gray-900 text-sm mb-1">Pulsa</h4>
+                      <p className="text-xs text-gray-600">Semua Operator</p>
+                    </div>
+                    
+                    <div className="bg-gradient-to-br from-[#8b5cf6]/10 to-[#8b5cf6]/5 rounded-xl p-4 border border-[#8b5cf6]/10">
+                      <div className="w-8 h-8 bg-[#8b5cf6] rounded-lg flex items-center justify-center mb-2">
+                        <Globe className="w-4 h-4 text-white" />
+                      </div>
+                      <h4 className="font-semibold text-gray-900 text-sm mb-1">Paket Data</h4>
+                      <p className="text-xs text-gray-600">Internet</p>
+                    </div>
+                  </div>
+                  
+                  {/* Stats */}
+                  <div className="border-t border-gray-100 pt-4">
+                    <div className="grid grid-cols-3 gap-4 text-center">
+                      <div>
+                        <div className="text-2xl font-bold text-[#1e40af]">100K+</div>
+                        <div className="text-xs text-gray-600">Transaksi</div>
+                      </div>
+                      <div>
+                        <div className="text-2xl font-bold text-[#059669]">99.9%</div>
+                        <div className="text-xs text-gray-600">Uptime</div>
+                      </div>
+                      <div>
+                        <div className="text-2xl font-bold text-[#f59e0b]">24/7</div>
+                        <div className="text-xs text-gray-600">Support</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              {/* Background Decorations */}
+              <div className="absolute -z-10 top-20 -right-20 w-40 h-40 bg-gradient-to-br from-[#1e40af]/20 to-[#059669]/20 rounded-full blur-3xl"></div>
+              <div className="absolute -z-10 -bottom-20 -left-20 w-32 h-32 bg-gradient-to-br from-[#f59e0b]/20 to-[#f77a0e]/20 rounded-full blur-3xl"></div>
             </div>
-            <div className="absolute bottom-6 right-6 w-16 h-16 rounded-full bg-white/10 backdrop-blur-sm flex items-center justify-center">
-              <Smartphone className="w-8 h-8 text-white" />
-            </div>
+            
           </div>
+        </div>
+        
+        {/* Background Pattern */}
+        <div className="absolute inset-0 -z-20 opacity-5">
+          <div className="absolute inset-0" style={{
+            backgroundImage: `radial-gradient(circle at 25% 25%, #1e40af 2px, transparent 2px),
+                             radial-gradient(circle at 75% 75%, #059669 2px, transparent 2px)`,
+            backgroundSize: '50px 50px'
+          }}></div>
         </div>
       </section>
 

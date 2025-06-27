@@ -102,7 +102,7 @@ export const products: Product[] = [
     description: "Bayar tagihan listrik pascabayar PLN dengan mudah dan praktis tanpa antri.",
     price: 0,
     category: "tagihan-listrik",
-    image: "https://www.pln.co.id/statics/teams/icons/icon_listrik.png",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     banner: "/tagihan-banner.jpg",
     items: [
       {

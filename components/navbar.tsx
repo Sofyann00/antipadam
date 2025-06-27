@@ -133,13 +133,13 @@ export function Navbar() {
                 <>
                   <Link 
                     href="/login"
-                    className="hidden md:flex px-4 py-2 text-sm font-medium text-gray-700 hover:text-[#f77a0e] transition-colors"
+                    className="hidden md:flex px-4 py-2 text-sm font-medium text-gray-700 hover:text-[#1e40af] transition-colors"
                   >
                     Login
                   </Link>
                   <Link
                     href="/register"
-                    className="hidden md:flex px-4 py-2 text-sm font-medium text-white bg-[#f77a0e] rounded-xl hover:bg-[#f77a0e]/90 transition-colors"
+                    className="hidden md:flex px-4 py-2 text-sm font-medium text-white bg-[#1e40af] rounded-xl hover:bg-[#1e40af]/90 transition-colors"
                   >
                     Daftar
                   </Link>
