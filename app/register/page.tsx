@@ -187,7 +187,7 @@ export default function RegisterPage() {
               {error && (
                 <p className="text-sm text-red-500 mt-2">{error}</p>
               )}
-              <Button type="submit" className="w-full bg-[#f77a0e] text-white" disabled={isLoading}>
+                              <Button type="submit" className="w-full bg-[#1e40af] text-white" disabled={isLoading}>
                 {isLoading ? (
                   <>
                     <Loader2 className="mr-2 h-4 w-4 animate-spin" />

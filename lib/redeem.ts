@@ -16,7 +16,7 @@ export const redeemCodes: RedeemCode[] = [
     description: "Special discount for gamers"
   },
   {
-    code: "VOCIHUB100",
+    code: "JagoPulsa100",
     points: 100,
     description: "Platform launch celebration"
   },

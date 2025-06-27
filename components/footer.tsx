@@ -10,16 +10,14 @@ export function Footer() {
           {/* Company Info */}
           <div className="space-y-6">
             <div className="flex items-center gap-3">
-              <img 
-                src="/app_icon.png" 
-                alt="vocihub Logo"
-                width={220}
-                height={220}
-                className="object-contain -ml-6 sm:ml-0 -mt-6 sm:mt-0"
-              />
+            <Link href="/" className="flex items-center gap-3">
+            <span className="text-2xl font-bold text-[#1e40af]">
+              Anti Padam
+            </span>
+          </Link>
             </div>
             <p className="text-gray-600 text-sm leading-relaxed">
-              Your trusted platform for game vouchers and digital products. We provide secure, instant, and reliable services for all your gaming needs.
+              Platform terpercaya untuk pembelian pulsa dan paket data. Kami menyediakan layanan top-up yang aman, cepat, dan terpercaya untuk semua kebutuhan komunikasi Anda.
             </p>
           </div>
 
@@ -63,11 +61,11 @@ export function Footer() {
             <ul className="space-y-4">
               <li>
                 <a
-                  href="mailto:admin@vocihub.com"
+                  href="mailto:admin@jagopulsa.net"
                   className="text-gray-600 hover:text-[#f77a0e] transition-colors flex items-center gap-3 group"
                 >
                   <Mail className="w-5 h-5 text-[#f77a0e] group-hover:scale-110 transition-transform" />
-                  admin@vocihub.com
+                  admin@jagopulsa.net
                 </a>
               </li>
               <li>
@@ -102,7 +100,7 @@ export function Footer() {
         <div className="mt-16 pt-8 border-t border-gray-200">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-gray-600">
-              © {new Date().getFullYear()} PT GENGGAM TEKNOLOGI ASIA. All rights reserved.
+              © {new Date().getFullYear()} PT KEMBAR EMPAT BERSAMA. All rights reserved.
             </p>
           </div>
         </div>

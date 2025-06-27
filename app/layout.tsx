@@ -12,8 +12,8 @@ import { FilterProvider } from "@/contexts/filter-context";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "vocihub - Your Trusted Game Voucher Platform",
-  description: "Your trusted platform for game vouchers and digital products. We provide secure, instant, and reliable services for all your gaming needs. Get your game vouchers, top-ups, and digital products with the best prices and fastest delivery.",
+  title: "JagoPulsa - Platform PPOB Terpercaya | Token Listrik & Pulsa",
+  description: "Platform terpercaya untuk token listrik PLN, pembayaran tagihan listrik, dan pulsa semua operator. Layanan PPOB instan, aman, dan terpercaya dengan harga terbaik. Melayani Telkomsel, XL, Indosat, THREE, Axis, Smartfren, by.U.",
   icons: {
     icon: "/favicon/favicon.ico",
     shortcut: "/favicon/favicon-16x16.png",

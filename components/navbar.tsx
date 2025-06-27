@@ -39,13 +39,9 @@ export function Navbar() {
         <div className="h-20 flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
-            <img 
-              src="/app_icon.png" 
-              alt="vocihub Logo"
-              width={200}
-              height={200}
-              className="object-contain"
-            />
+            <span className="text-2xl font-bold text-[#1e40af]">
+              Anti Padam
+            </span>
           </Link>
 
           {/* Search and Actions */}
@@ -54,10 +50,10 @@ export function Navbar() {
             <div className="relative hidden md:block">
               <input
                 type="text"
-                placeholder="Search games..."
+                placeholder="Cari layanan..."
                 value={searchQuery}
                 onChange={handleSearch}
-                className="w-64 px-4 py-2 pl-10 bg-gray-50 border border-gray-200 rounded-xl text-gray-900 placeholder-gray-500 focus:outline-none focus:border-[#f77a0e] focus:ring-2 focus:ring-[#f77a0e]/20 transition-all duration-200"
+                className="w-64 px-4 py-2 pl-10 bg-gray-50 border border-gray-200 rounded-xl text-gray-900 placeholder-gray-500 focus:outline-none focus:border-[#1e40af] focus:ring-2 focus:ring-[#1e40af]/20 transition-all duration-200"
               />
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
               
@@ -108,8 +104,8 @@ export function Navbar() {
                 <DropdownMenu>
                   <DropdownMenuTrigger asChild>
                     <button className="flex items-center gap-2 p-2 hover:bg-gray-50 rounded-xl transition-colors">
-                      <div className="w-8 h-8 rounded-full bg-[#f77a0e]/10 flex items-center justify-center">
-                        <User className="h-4 w-4 text-[#f77a0e]" />
+                      <div className="w-8 h-8 rounded-full bg-[#1e40af]/10 flex items-center justify-center">
+                        <User className="h-4 w-4 text-[#1e40af]" />
                       </div>
                       <span className="text-sm font-medium text-gray-700">{user.name}</span>
                     </button>
