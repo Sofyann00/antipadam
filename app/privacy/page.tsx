@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy - JagoPulsa',
-  description: 'Kebijakan Privasi untuk layanan pulsa dan top-up JagoPulsa',
+  title: 'Privacy Policy - pulsahub',
+  description: 'Kebijakan Privasi untuk layanan pulsa dan top-up pulsahub',
 }
 
 export default function PrivacyPage() {
@@ -23,7 +23,7 @@ export default function PrivacyPage() {
                 1. Informasi yang Kami Kumpulkan
               </h2>
               <p className="text-gray-600">
-                JagoPulsa mengumpulkan informasi pribadi termasuk namun tidak terbatas pada: nama, alamat email, nomor telepon, detail nomor yang akan diisi pulsa, informasi pembayaran, dan riwayat transaksi ketika Anda membeli pulsa, paket data, atau membuat akun di platform kami.
+                pulsahub mengumpulkan informasi pribadi termasuk namun tidak terbatas pada: nama, alamat email, nomor telepon, detail nomor yang akan diisi pulsa, informasi pembayaran, dan riwayat transaksi ketika Anda membeli pulsa, paket data, atau membuat akun di platform kami.
               </p>
             </div>
 
@@ -110,7 +110,7 @@ export default function PrivacyPage() {
                   <p>Jl Pramuka Kav 150, Utan Kayu Utara</p>
                   <p>Matraman, Jakarta Timur</p>
                   <p>DKI Jakarta, Indonesia</p>
-                  <p>Email: admin@jagopulsa.net</p>
+                  <p>Email: admin@pulsahub.net</p>
                   <p>Phone: (021) 52067542</p>
                 </div>
               </div>

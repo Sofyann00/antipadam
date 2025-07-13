@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'About Us - JagoPulsa',
+  title: 'About Us - pulsahub',
   description: 'Penyedia pulsa dan paket data terpercaya di Indonesia',
 }
 
@@ -11,7 +11,7 @@ export default function AboutPage() {
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white p-8 rounded-lg shadow border border-gray-200">
           <h1 className="text-3xl font-bold text-gray-900 mb-4">
-            About JagoPulsa
+            About pulsahub
           </h1>
           <p className="text-sm text-gray-500 italic mb-8">
             Penyedia Pulsa dan Paket Data Terpercaya di Indonesia
@@ -23,7 +23,7 @@ export default function AboutPage() {
                 Our Story
               </h2>
               <p className="text-gray-600">
-                Didirikan dengan visi menyediakan layanan telekomunikasi yang mudah dan terpercaya, JagoPulsa telah menjadi penyedia pulsa dan paket data terkemuka di Indonesia. Perjalanan kami dimulai dengan misi sederhana: memberikan layanan top-up pulsa yang cepat, aman, dan terpercaya. Dari tim kecil yang berdedikasi, kini kami telah berkembang menjadi platform terpercaya yang melayani ribuan pelanggan di seluruh Indonesia.
+                Didirikan dengan visi menyediakan layanan telekomunikasi yang mudah dan terpercaya, pulsahub telah menjadi penyedia pulsa dan paket data terkemuka di Indonesia. Perjalanan kami dimulai dengan misi sederhana: memberikan layanan top-up pulsa yang cepat, aman, dan terpercaya. Dari tim kecil yang berdedikasi, kini kami telah berkembang menjadi platform terpercaya yang melayani ribuan pelanggan di seluruh Indonesia.
               </p>
             </div>
 
@@ -46,7 +46,7 @@ export default function AboutPage() {
                 Our Commitment
               </h2>
               <p className="text-gray-600">
-                Di JagoPulsa, kami berkomitmen memberikan pengalaman terbaik dalam layanan telekomunikasi. Kami memahami pentingnya layanan top-up yang cepat dan terpercaya untuk kebutuhan komunikasi sehari-hari. Tim kami bekerja keras memastikan pengisian pulsa instan, transaksi aman, dan dukungan pelanggan yang prima. Kami bangga membangun kepercayaan dengan komunitas pengguna dan memastikan kepuasan melalui layanan yang andal.
+                Di pulsahub, kami berkomitmen memberikan pengalaman terbaik dalam layanan telekomunikasi. Kami memahami pentingnya layanan top-up yang cepat dan terpercaya untuk kebutuhan komunikasi sehari-hari. Tim kami bekerja keras memastikan pengisian pulsa instan, transaksi aman, dan dukungan pelanggan yang prima. Kami bangga membangun kepercayaan dengan komunitas pengguna dan memastikan kepuasan melalui layanan yang andal.
               </p>
             </div>
 
@@ -106,7 +106,7 @@ export default function AboutPage() {
                 <p>Get in touch with our support team:</p>
                 <div className="mt-2 space-y-1">
                   <p>Phone: (021) 52067542</p>
-                  <p>Email: admin@jagopulsa.net</p>
+                  <p>Email: admin@pulsahub.net</p>
                   <p>WhatsApp: +62 812-8845-8953</p>
                 </div>
               </div>

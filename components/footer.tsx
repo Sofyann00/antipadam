@@ -12,7 +12,7 @@ export function Footer() {
             <div className="flex items-center gap-3">
             <Link href="/" className="flex items-center gap-3">
             <span className="text-2xl font-bold text-[#1e40af]">
-              Anti Padam
+              pulsa hub
             </span>
           </Link>
             </div>
@@ -61,11 +61,11 @@ export function Footer() {
             <ul className="space-y-4">
               <li>
                 <a
-                  href="mailto:admin@jagopulsa.net"
+                  href="mailto:admin@pulsahub.net"
                   className="text-gray-600 hover:text-[#f77a0e] transition-colors flex items-center gap-3 group"
                 >
                   <Mail className="w-5 h-5 text-[#f77a0e] group-hover:scale-110 transition-transform" />
-                  admin@jagopulsa.net
+                  admin@pulsahub.net
                 </a>
               </li>
               <li>

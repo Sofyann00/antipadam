@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Terms of Service - JagoPulsa',
-  description: 'Syarat dan ketentuan penggunaan layanan pulsa dan top-up JagoPulsa',
+  title: 'Terms of Service - pulsahub',
+  description: 'Syarat dan ketentuan penggunaan layanan pulsa dan top-up pulsahub',
 }
 
 export default function TermsPage() {
@@ -23,7 +23,7 @@ export default function TermsPage() {
                 1. Agreement to Terms
               </h2>
               <p className="text-gray-600">
-                Dengan mengakses dan menggunakan layanan pulsa dan top-up yang disediakan oleh PT KEMBAR EMPAT BERSAMA (selanjutnya disebut "JagoPulsa"), Anda menerima dan setuju untuk terikat dengan syarat dan ketentuan dalam perjanjian ini.
+                Dengan mengakses dan menggunakan layanan pulsa dan top-up yang disediakan oleh PT KEMBAR EMPAT BERSAMA (selanjutnya disebut "pulsahub"), Anda menerima dan setuju untuk terikat dengan syarat dan ketentuan dalam perjanjian ini.
               </p>
             </div>
 
@@ -32,7 +32,7 @@ export default function TermsPage() {
                 2. Layanan Pulsa dan Top-Up
               </h2>
               <p className="text-gray-600">
-                JagoPulsa menyediakan layanan pulsa dan top-up termasuk pulsa semua operator, paket data, token listrik PLN, dan berbagai layanan pembayaran digital lainnya. Semua daftar layanan, termasuk harga, ketersediaan, dan spesifikasi, dapat berubah tanpa pemberitahuan sebelumnya. Kami menjamin keaslian dan validitas semua layanan yang disediakan melalui platform kami.
+                pulsahub menyediakan layanan pulsa dan top-up termasuk pulsa semua operator, paket data, token listrik PLN, dan berbagai layanan pembayaran digital lainnya. Semua daftar layanan, termasuk harga, ketersediaan, dan spesifikasi, dapat berubah tanpa pemberitahuan sebelumnya. Kami menjamin keaslian dan validitas semua layanan yang disediakan melalui platform kami.
               </p>
             </div>
 
@@ -50,7 +50,7 @@ export default function TermsPage() {
                 4. Akun dan Penggunaan Informasi
               </h2>
               <p className="text-gray-600">
-                Semua informasi nomor telepon dan data pribadi yang diberikan kepada JagoPulsa akan diperlakukan dengan kerahasiaan ketat. Kami tidak akan mengungkapkan informasi Anda kepada pihak ketiga kecuali jika diperlukan oleh hukum atau dengan izin eksplisit Anda. JagoPulsa dapat menggunakan data anonim untuk tujuan peningkatan layanan dan dukungan pelanggan.
+                Semua informasi nomor telepon dan data pribadi yang diberikan kepada pulsahub akan diperlakukan dengan kerahasiaan ketat. Kami tidak akan mengungkapkan informasi Anda kepada pihak ketiga kecuali jika diperlukan oleh hukum atau dengan izin eksplisit Anda. pulsahub dapat menggunakan data anonim untuk tujuan peningkatan layanan dan dukungan pelanggan.
               </p>
             </div>
 
@@ -59,7 +59,7 @@ export default function TermsPage() {
                 5. Limitation of Liability
               </h2>
               <p className="text-gray-600">
-                Meskipun kami menjamin keaslian layanan pulsa dan top-up kami, JagoPulsa tidak bertanggung jawab atas kerusakan tidak langsung, insidental, khusus, konsekuensial, atau hukuman yang diakibatkan dari penggunaan layanan kami. Termasuk tetapi tidak terbatas pada masalah operator, masalah server, atau pembatasan khusus platform yang dapat mempengaruhi penggunaan layanan yang dibeli.
+                Meskipun kami menjamin keaslian layanan pulsa dan top-up kami, pulsahub tidak bertanggung jawab atas kerusakan tidak langsung, insidental, khusus, konsekuensial, atau hukuman yang diakibatkan dari penggunaan layanan kami. Termasuk tetapi tidak terbatas pada masalah operator, masalah server, atau pembatasan khusus platform yang dapat mempengaruhi penggunaan layanan yang dibeli.
               </p>
             </div>
 
@@ -68,7 +68,7 @@ export default function TermsPage() {
                 6. Tanggung Jawab Pengguna
               </h2>
               <p className="text-gray-600">
-                Pengguna bertanggung jawab untuk memberikan informasi nomor telepon yang akurat dan memastikan kepatuhan dengan syarat layanan operator telekomunikasi. Pengguna harus memverifikasi semua pembelian sebelum menyelesaikan transaksi dan memberi tahu JagoPulsa dengan segera jika ada masalah. JagoPulsa tidak bertanggung jawab atas masalah nomor telepon yang diakibatkan oleh informasi yang salah yang diberikan oleh pengguna atau pelanggaran syarat operator.
+                Pengguna bertanggung jawab untuk memberikan informasi nomor telepon yang akurat dan memastikan kepatuhan dengan syarat layanan operator telekomunikasi. Pengguna harus memverifikasi semua pembelian sebelum menyelesaikan transaksi dan memberi tahu pulsahub dengan segera jika ada masalah. pulsahub tidak bertanggung jawab atas masalah nomor telepon yang diakibatkan oleh informasi yang salah yang diberikan oleh pengguna atau pelanggaran syarat operator.
               </p>
             </div>
 
@@ -93,7 +93,7 @@ export default function TermsPage() {
                   <p>Jl Pramuka Kav 150, Utan Kayu Utara</p>
                   <p>Matraman, Jakarta Timur</p>
                   <p>DKI Jakarta, Indonesia</p>
-                  <p>Email: admin@jagopulsa.net</p>
+                  <p>Email: admin@pulsahub.net</p>
                   <p>Phone: (021) 52067542</p>
                 </div>
               </div>

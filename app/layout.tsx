@@ -12,7 +12,7 @@ import { FilterProvider } from "@/contexts/filter-context";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "JagoPulsa - Platform PPOB Terpercaya | Token Listrik & Pulsa",
+  title: "pulsahub - Platform PPOB Terpercaya | Token Listrik & Pulsa",
   description: "Platform terpercaya untuk token listrik PLN, pembayaran tagihan listrik, dan pulsa semua operator. Layanan PPOB instan, aman, dan terpercaya dengan harga terbaik. Melayani Telkomsel, XL, Indosat, THREE, Axis, Smartfren, by.U.",
   icons: {
     icon: "/favicon/favicon.ico",

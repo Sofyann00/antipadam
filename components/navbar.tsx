@@ -40,7 +40,7 @@ export function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
             <span className="text-2xl font-bold text-[#1e40af]">
-              Anti Padam
+              pulsa hub
             </span>
           </Link>
 
