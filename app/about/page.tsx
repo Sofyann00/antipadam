@@ -71,7 +71,7 @@ export default function AboutPage() {
               <div className="text-gray-600">
                 <p>Visit our office:</p>
                 <div className="mt-2">
-                  <p>PT KEMBAR EMPAT BERSAMA</p>
+                  <p>PT DUA TEKNOLOGI TIGA</p>
                   <p>Gedung Is Plaza Lt. 5</p>
                   <p>Jl Pramuka Kav 150, Utan Kayu Utara</p>
                   <p>Matraman, Jakarta Timur</p>
@@ -106,7 +106,7 @@ export default function AboutPage() {
                 <p>Get in touch with our support team:</p>
                 <div className="mt-2 space-y-1">
                   <p>Phone: (021) 52067542</p>
-                  <p>Email: admin@pulsahub.net</p>
+                  <p>Email: admin@pulsahub.com</p>
                   <p>WhatsApp: +62 812-8845-8953</p>
                 </div>
               </div>

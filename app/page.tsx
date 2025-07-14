@@ -83,7 +83,7 @@ export default function Home() {
 
   const qnaList = [
     {
-      question: "Layanan Apa Saja yang Tersedia di pulsahub.net?",
+      question: "Layanan Apa Saja yang Tersedia di pulsahub.com?",
       answer: (
         <span>
           Kami menyediakan <b>Token Listrik PLN, Pembayaran Tagihan Listrik, dan Pulsa untuk semua operator</b> (Telkomsel, XL, Indosat, THREE, Axis, Smartfren, by.U). Semua layanan 100% resmi dan terpercaya.
@@ -115,7 +115,7 @@ export default function Home() {
       ),
     },
     {
-      question: "Mengapa Harus Pilih pulsahub.net?",
+      question: "Mengapa Harus Pilih pulsahub.com?",
       answer: (
         <span>
           Kami menyediakan layanan lengkap (listrik + pulsa), proses instan, harga kompetitif, dan customer service 24/7. Semua produk resmi dari provider terpercaya!

@@ -105,12 +105,12 @@ export default function PrivacyPage() {
               <div className="text-gray-600">
                 <p>Untuk pertanyaan tentang Kebijakan Privasi ini atau praktik data kami, silakan hubungi kami di:</p>
                 <div className="mt-2">
-                  <p>PT KEMBAR EMPAT BERSAMA</p>
+                  <p>PT DUA TEKNOLOGI TIGA</p>
                   <p>Gedung Is Plaza Lt. 5</p>
                   <p>Jl Pramuka Kav 150, Utan Kayu Utara</p>
                   <p>Matraman, Jakarta Timur</p>
                   <p>DKI Jakarta, Indonesia</p>
-                  <p>Email: admin@pulsahub.net</p>
+                  <p>Email: admin@pulsahub.com</p>
                   <p>Phone: (021) 52067542</p>
                 </div>
               </div>

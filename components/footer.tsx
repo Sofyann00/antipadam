@@ -61,11 +61,11 @@ export function Footer() {
             <ul className="space-y-4">
               <li>
                 <a
-                  href="mailto:admin@pulsahub.net"
+                  href="mailto:admin@pulsahub.com"
                   className="text-gray-600 hover:text-[#f77a0e] transition-colors flex items-center gap-3 group"
                 >
                   <Mail className="w-5 h-5 text-[#f77a0e] group-hover:scale-110 transition-transform" />
-                  admin@pulsahub.net
+                  admin@pulsahub.com
                 </a>
               </li>
               <li>
@@ -100,7 +100,7 @@ export function Footer() {
         <div className="mt-16 pt-8 border-t border-gray-200">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-gray-600">
-              © {new Date().getFullYear()} PT KEMBAR EMPAT BERSAMA. All rights reserved.
+              © {new Date().getFullYear()} PT DUA TEKNOLOGI TIGA. All rights reserved.
             </p>
           </div>
         </div>

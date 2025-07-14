@@ -23,7 +23,7 @@ export default function TermsPage() {
                 1. Agreement to Terms
               </h2>
               <p className="text-gray-600">
-                Dengan mengakses dan menggunakan layanan pulsa dan top-up yang disediakan oleh PT KEMBAR EMPAT BERSAMA (selanjutnya disebut "pulsahub"), Anda menerima dan setuju untuk terikat dengan syarat dan ketentuan dalam perjanjian ini.
+                Dengan mengakses dan menggunakan layanan pulsa dan top-up yang disediakan oleh PT DUA TEKNOLOGI TIGA (selanjutnya disebut "pulsahub"), Anda menerima dan setuju untuk terikat dengan syarat dan ketentuan dalam perjanjian ini.
               </p>
             </div>
 
@@ -88,12 +88,12 @@ export default function TermsPage() {
               <div className="text-gray-600">
                 <p>Untuk pertanyaan tentang Syarat dan Ketentuan ini, silakan hubungi kami di:</p>
                 <div className="mt-2">
-                  <p>PT KEMBAR EMPAT BERSAMA</p>
+                  <p>PT DUA TEKNOLOGI TIGA</p>
                   <p>Gedung Is Plaza Lt. 5</p>
                   <p>Jl Pramuka Kav 150, Utan Kayu Utara</p>
                   <p>Matraman, Jakarta Timur</p>
                   <p>DKI Jakarta, Indonesia</p>
-                  <p>Email: admin@pulsahub.net</p>
+                  <p>Email: admin@pulsahub.com</p>
                   <p>Phone: (021) 52067542</p>
                 </div>
               </div>
